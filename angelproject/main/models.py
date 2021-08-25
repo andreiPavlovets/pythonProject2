@@ -45,3 +45,6 @@ class Courses(models.Model):
     title = models.CharField(max_length=20)
     subtitle = models.CharField(max_length=20)
     description = models.CharField(max_length=50)
+
+class New(models.Model):
+    pass
